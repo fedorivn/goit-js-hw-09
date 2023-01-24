@@ -81,6 +81,9 @@ import Notiflix from 'notiflix';
 let intervalId = null;
 btnEl.disabled = false;
 
+
+console.log(' -->', btnEl );
+
 function viewOfTimer({ days, hours, minutes, seconds }) {
 day.textContent = `${days}`;
 hour.textContent = `${hours}`;
